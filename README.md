@@ -1,1 +1,0 @@
-# CTF_2022_The_Spanning_Tree_Catching_B8tes_Qualifications
