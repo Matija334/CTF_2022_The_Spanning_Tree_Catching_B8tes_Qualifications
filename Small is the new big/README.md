@@ -9,8 +9,8 @@
 ```cyber_Rs4_W1en3r_sMaLl_Pr1v_Exp0neNt```
 
 ## Solution
-File flag2.pgp was found in the solution of the previous challenge (sniff). In the mounted from the sniff challenge we had to look for the public keys:
-```GNUPGHOME=/mnt/.gnupg/ gpg -k``` From there we noticed Michael J. Wiener was the owner of the key. Next we exported his public key.
+File flag2.pgp was found in the solution of the previous challenge (sniff). In the mounted folder from the sniff challenge we had to look for the public keys:
+```GNUPGHOME=/mnt/.gnupg/ gpg -k``` There we noticed Michael J. Wiener was the owner of the key. Next we exported his public key.
 ```GNUPGHOME=/mnt/.gnupg/ gpg --armor --export 0xD9497DFF522A6EB7 > ~/0xD9497DFF522A6EB7.asc```
 Then we wrote script to extract e and n from the key.
 ```
