@@ -34,6 +34,6 @@ print(privateKeyPem)
 ```
 
 Next we had to import this private key
-```GNUPGHOME=/mnt/.gnupg/ pem2openpgp "Michael J. Wiener" < privatekey.pem | gpg --import```
+```GNUPGHOME=/mnt/.gnupg/ pem2openpgp "Michael J. Wiener" < privatekey.pem | GNUPGHOME=/mnt/.gnupg/ gpg --import```
 and we were able to decode the file and read the flag.
 ```GNUPGHOME=/mnt/.gnupg/ gpg -d flag2.gpg```
