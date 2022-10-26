@@ -3,7 +3,7 @@
 ## Description
 
 ## Attached files
-- flag2.pgp
+- flag2.gpg
 
 ## Flag
 ```cyber_Rs4_W1en3r_sMaLl_Pr1v_Exp0neNt```
