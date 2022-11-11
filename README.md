@@ -9,7 +9,7 @@ Writeups for the CTF event organized by Localos from Universität der Bundeswehr
 - Web
   - [Control The Arena](Control%20the%20arena)
 - Hardware
-  - [Sniff](sniff)
+  - [Sniff](Sniff)
 - Crypto
   - [Small is the new big](Small%20is%20the%20new%20big)
 - Extra
